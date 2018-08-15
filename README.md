@@ -295,8 +295,7 @@ Add the following code:
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <paths xmlns:android="http://schemas.android.com/apk/res/android">
-    <external-files-path name="my_images" path="Pictures" />
-    <external-files-path name="my_movies" path="Movies" />
+    <external-path name="my_images" path="Android/data/com.example.package.name/files/Pictures" />
 </paths>
 ```
 
